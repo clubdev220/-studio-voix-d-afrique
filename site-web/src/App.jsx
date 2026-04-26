@@ -17,6 +17,9 @@ import PodcastPage from './pages/PodcastPage.jsx';
 import PostProductionPage from './pages/PostProductionPage.jsx';
 import LocationStudioPage from './pages/LocationStudioPage.jsx';
 import ProjectDetailPage from './pages/ProjectDetailPage.jsx';
+import MentionsLegalesPage from './pages/MentionsLegalesPage.jsx';
+import ConfidentialitePage from './pages/ConfidentialitePage.jsx';
+import ConditionsGeneralesPage from './pages/ConditionsGeneralesPage.jsx';
 import ProtectedRoute from './components/ProtectedRoute.jsx';
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
@@ -398,6 +401,9 @@ export default function App() {
       <Route path="/contact" element={<ContactPage />} />
       <Route path="/blog" element={<BlogPage />} />
       <Route path="/blog/:slug" element={<ArticlePage />} />
+      <Route path="/mentions-legales" element={<MentionsLegalesPage />} />
+      <Route path="/confidentialite" element={<ConfidentialitePage />} />
+      <Route path="/conditions-generales" element={<ConditionsGeneralesPage />} />
       <Route path="/connexion" element={<AuthPage />} />
       <Route path="/inscription" element={<AuthPage mode="register" />} />
       <Route

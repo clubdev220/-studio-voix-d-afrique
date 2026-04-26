@@ -1,0 +1,53 @@
+/* Base reset & global styles */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #131313;
+  color: #e5e2e1;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Animations */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  100% { transform: translateY(-20px); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-bar {
+  0%, 100% { transform: scaleY(0.6); }
+  50% { transform: scaleY(1); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+/* Audio bars animation */
+.audio-bar:nth-child(1) { animation: pulse-bar 1s ease-in-out infinite; animation-delay: 0s; }
+.audio-bar:nth-child(2) { animation: pulse-bar 1s ease-in-out infinite; animation-delay: 0.2s; }
+.audio-bar:nth-child(3) { animation: pulse-bar 1s ease-in-out infinite; animation-delay: 0.4s; }
+.audio-bar:nth-child(4) { animation: pulse-bar 1s ease-in-out infinite; animation-delay: 0.1s; }
+.audio-bar:nth-child(5) { animation: pulse-bar 1s ease-in-out infinite; animation-delay: 0.3s; }

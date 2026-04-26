@@ -7,6 +7,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.jsx';
 
 /* ─── Custom map marker ──────────────────────────────────── */
 const studioIcon = L.divIcon({
@@ -33,50 +34,6 @@ const studioIcon = L.divIcon({
   iconAnchor: [22, 44],
   popupAnchor: [0, -48],
 });
-
-/* ─── Footer ─────────────────────────────────────────────── */
-const Footer = () => (
-  <footer className="bg-slate-950 w-full rounded-t-3xl pt-16 pb-8 px-12">
-    <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16">
-      <div className="md:col-span-1 space-y-4">
-        <div className="text-xl font-black text-emerald-500" style={{ fontFamily: 'Space Grotesk' }}>
-          Studio Voix d'Afrique
-        </div>
-        <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
-          Le premier studio de production vocale et post-production sonore dédié à l'excellence créative africaine.
-        </p>
-      </div>
-      <div>
-        <h4 className="text-emerald-500 font-bold mb-6 text-sm uppercase tracking-widest">Navigation</h4>
-        <ul className="space-y-4">
-          {[['Services', '/services'], ['Studio', '/studio'], ['Portfolio', '/portfolio'], ['À Propos', '/about']].map(([label, href]) => (
-            <li key={label}><Link to={href} className="text-slate-400 hover:text-orange-400 text-sm transition-all">{label}</Link></li>
-          ))}
-        </ul>
-      </div>
-      <div>
-        <h4 className="text-emerald-500 font-bold mb-6 text-sm uppercase tracking-widest">Compagnie</h4>
-        <ul className="space-y-4">
-          {['Mentions Légales', 'Confidentialité'].map(item => (
-            <li key={item}><a href="#" className="text-slate-400 hover:text-orange-400 text-sm transition-all">{item}</a></li>
-          ))}
-        </ul>
-      </div>
-      <div>
-        <h4 className="text-emerald-500 font-bold mb-6 text-sm uppercase tracking-widest">Contact</h4>
-        <div className="space-y-3 text-slate-400 text-sm">
-          <p className="flex items-center gap-2"><span className="material-symbols-outlined text-emerald-500 text-base">phone</span>+226 67 56 56 91</p>
-          <p className="flex items-center gap-2"><span className="material-symbols-outlined text-emerald-500 text-base">mail</span>contact@lesvoixdafriques.com</p>
-          <p className="flex items-center gap-2"><span className="material-symbols-outlined text-emerald-500 text-base">location_on</span>Ouagadougou, Burkina Faso</p>
-        </div>
-      </div>
-    </div>
-    <div className="pt-8 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-500 text-xs">
-      <p>© {new Date().getFullYear()} Studio Voix d'Afrique. Tous droits réservés.</p>
-      <span className="uppercase tracking-tighter text-slate-600">La voix qui donne vie aux histoires</span>
-    </div>
-  </footer>
-);
 
 /* ─── Contact info item ──────────────────────────────────── */
 const InfoItem = ({ icon, label, value, href, color = 'text-primary' }) => (

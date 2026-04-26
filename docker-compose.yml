@@ -1,0 +1,14 @@
+services:
+  site-web:
+    build:
+      context: ./site-web
+    ports:
+      - "3000:80"
+    restart: unless-stopped
+
+  admin-web:
+    build:
+      context: ./admin-web
+    ports:
+      - "3001:80"
+    restart: unless-stopped

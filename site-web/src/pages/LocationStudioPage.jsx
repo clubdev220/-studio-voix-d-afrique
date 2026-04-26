@@ -7,8 +7,8 @@ const SERVICE = {
   titleLine2: 'Studio',
   accentClass: 'text-tertiary',
   description: "Un espace acoustique traité aux normes professionnelles, équipé du meilleur matériel. Votre créativité n'attend plus que l'environnement qui lui correspond.",
-  heroImage: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAyvGQil_KLUrWsf8630eseRmcblP6Usj4EABDLHKh7YXVS-zYPBN5XRGH1ajb4IlbFjMDzytcj9ZnYyn_5KbE5cbBObCevljoGbW2cTzlfJ_4buxUXruu_9ECh-Oybww9Ocgys6lEOekdzNEifSfjEpM3nx3Hanhl5wE-QPFvGBsqbh7-W0OTpCCwBz3AkTPLXxAgnJOezFxyJDeoEVFeBqSpHZhsHk-2xbajdqbzWXCixMaFVbt4CIv-0vFL0yOEk0qyqOIroGoM',
-  heroImageAlt: "Cabine d'enregistrement professionnelle",
+  heroImage: 'https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?auto=format&fit=crop&w=1200&q=80',
+  heroImageAlt: "Cabine d'enregistrement avec traitement acoustique",
 
   features: [
     {
@@ -28,8 +28,8 @@ const SERVICE = {
     },
   ],
 
-  processImage: 'https://lh3.googleusercontent.com/aida-public/AB6AXuD5FDo5KCO69hpbfoDJgRxmCBMBOM0mkz_oi3wRrQG5GLO6b3gimTDU_lUYFub8Rhj5tOhRRcL5wUVMVc3hFOQ8_0EJylqFUtTRpCxmg6P3pKt5KPACjohYnbphnBC-B6m9pXrUimGBCBezzmqpF8O5bU8NRLUF2CD9joS0En9mMPNtP2Q2eUwhqaWHf7AoZfHlScdQnldpbm5wSmKzWAv_IZxljcSa8YUczznjXHQkfGd-1WBlTWl0veBZDWX14RgZRta-rQaYj7w',
-  processImageAlt: 'Podcasteur en session d\'enregistrement',
+  processImage: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1200&q=80',
+  processImageAlt: 'Casque audio professionnel de monitoring',
 
   process: [
     {

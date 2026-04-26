@@ -1,63 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar.jsx';
-
-/* ─── Shared Footer ────────────────────────────────────── */
-const Footer = () => (
-  <footer className="bg-slate-950 text-slate-400 text-sm w-full rounded-t-3xl mt-20">
-    <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-12 py-16 w-full">
-      <div className="col-span-1">
-        <div className="text-xl font-black text-emerald-500 mb-6" style={{ fontFamily: 'Space Grotesk' }}>
-          Studio Voix d'Afrique
-        </div>
-        <p className="text-slate-500 leading-relaxed max-w-xs">
-          L'excellence sonore au service du continent africain et du monde.
-        </p>
-      </div>
-
-      <div>
-        <h4 className="text-emerald-500 font-bold mb-6">Explorer</h4>
-        <div className="flex flex-col gap-3">
-          <Link to="/services" className="hover:text-orange-400 transition-all">Services</Link>
-          <Link to="/#studio" className="hover:text-orange-400 transition-all">Studio</Link>
-          <Link to="/#portfolio" className="hover:text-orange-400 transition-all">Portfolio</Link>
-          <a href="#" className="hover:text-orange-400 transition-all">Blog</a>
-        </div>
-      </div>
-
-      <div>
-        <h4 className="text-emerald-500 font-bold mb-6">Informations</h4>
-        <div className="flex flex-col gap-3">
-          <a href="#" className="hover:text-orange-400 transition-all">About</a>
-          <a href="#" className="hover:text-orange-400 transition-all">Mentions Légales</a>
-          <a href="#" className="hover:text-orange-400 transition-all">Confidentialité</a>
-          <a href="#" className="hover:text-orange-400 transition-all">Contact</a>
-        </div>
-      </div>
-
-      <div>
-        <h4 className="text-emerald-500 font-bold mb-6">Suivez-nous</h4>
-        <div className="flex gap-4">
-          <a
-            href="#"
-            className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-emerald-500 hover:text-white transition-all"
-          >
-            <span className="material-symbols-outlined text-lg">share</span>
-          </a>
-          <a
-            href="#"
-            className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-emerald-500 hover:text-white transition-all"
-          >
-            <span className="material-symbols-outlined text-lg">public</span>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div className="px-12 py-8 border-t border-slate-900 text-center md:text-left text-slate-600">
-      © 2024 Studio Voix d'Afrique. Tous droits réservés.
-    </div>
-  </footer>
-);
+import Footer from '../components/Footer.jsx';
 
 /* ─── Services Page ────────────────────────────────────── */
 export default function ServicesPage() {
@@ -74,7 +18,8 @@ export default function ServicesPage() {
             <img
               alt="Professional recording studio setup"
               className="w-full h-full object-cover grayscale opacity-40 scale-110"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSr2GFfMyQSQQYYkJaKMPachx2GjQ8rYgTcJuGJUOWPIDj0GpfE6WIDzMcTB8ZLQpTRXacXQR-R44kjgnuMsT0c28Km-xlArtJ262iMEgvQzoA3kN9mzNiWLDfjSWxcgBWMr6a7TOTQbFr6thN-Z576C9HGC-QICYCKAAsA_zvCxROfGgWXjNb4GNoCJdQ-qhUmQXP9XoPHD4PLfGLYMC1tfXyOFp2UKs6l_PRzdidlb-n6b51L6JAmd952Mtt-EvinPH8ByWUjlk"
+              src="https://images.unsplash.com/photo-1598653244849-4f476c1571ba?auto=format&fit=crop&w=1920&q=80"
+              style={{ filter: 'grayscale(1) brightness(0.55)' }}
             />
           </div>
 

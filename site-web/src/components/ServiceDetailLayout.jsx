@@ -58,6 +58,7 @@ export default function ServiceDetailLayout({ service }) {
             src={heroImage}
             alt={heroImageAlt}
             className="w-full h-full object-cover opacity-20"
+            style={{ filter: 'grayscale(1) brightness(0.55)' }}
           />
           <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-background/30" />
           <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
@@ -103,6 +104,7 @@ export default function ServiceDetailLayout({ service }) {
                   src={heroImage}
                   alt={heroImageAlt}
                   className="w-full h-full object-cover"
+                  style={{ filter: 'grayscale(1) brightness(0.55)' }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-tl from-background/50 to-transparent" />
               </div>
@@ -145,6 +147,7 @@ export default function ServiceDetailLayout({ service }) {
                 src={processImage}
                 alt={processImageAlt}
                 className="w-full h-full object-cover"
+                style={{ filter: 'grayscale(1) brightness(0.55)' }}
               />
               <div className="absolute inset-0 bg-gradient-to-tr from-background/40 to-transparent" />
             </div>

@@ -19,6 +19,7 @@ import LocationStudioPage from './pages/LocationStudioPage.jsx';
 import ProjectDetailPage from './pages/ProjectDetailPage.jsx';
 import ProtectedRoute from './components/ProtectedRoute.jsx';
 import Navbar from './components/Navbar.jsx';
+import Footer from './components/Footer.jsx';
 import { useBooking } from './contexts/BookingContext.jsx';
 
 /* ─── Home Page ──────────────────────────────────────────────────────── */
@@ -144,9 +145,10 @@ function HomePage() {
                 <p className="text-on-surface-variant text-sm mb-6">Des voix de caractère pour vos documentaires, publicités et films d'entreprise.</p>
                 <div className="mt-auto">
                   <img
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJQpgY0oI92IBFIUH2cqkQpV03cODeQN_orJM5Udkw46spGnxASyAVWAlnzGA1V5ULY-_C6c9nABB3gd0o-kBWm-SxrQ2-JLEDXnL-TlLp-VqbrL2Gxp4ZXY1LxgrQDVzU_4l9KEPeRlsWNzOoSyoO_ew0Nwe_U6OLuVS85TzXY5lXg0nmkWYxTC5BKerMmganyLcrA04GriOI9qGHVDeoRy0wJb7OAGNCHmSsN6jBxA84IS3rmqQ5LkJPiZrWnJr-Lu_htdAi3U0"
-                    alt="Professional studio condenser microphone"
+                    src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=600&q=80"
+                    alt="Microphone à condensateur de studio professionnel"
                     className="w-full h-32 object-cover rounded-lg opacity-40 group-hover:opacity-70 transition-opacity duration-500"
+                    style={{ filter: 'grayscale(1) brightness(0.55)' }}
                   />
                 </div>
               </div>
@@ -228,9 +230,10 @@ function HomePage() {
           <div className="container mx-auto px-8">
             <div className="relative rounded-3xl overflow-hidden h-[600px] flex items-center group">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAyvGQil_KLUrWsf8630eseRmcblP6Usj4EABDLHKh7YXVS-zYPBN5XRGH1ajb4IlbFjMDzytcj9ZnYyn_5KbE5cbBObCevljoGbW2cTzlfJ_4buxUXruu_9ECh-Oybww9Ocgys6lEOekdzNEifSfjEpM3nx3Hanhl5wE-QPFvGBsqbh7-W0OTpCCwBz3AkTPLXxAgnJOezFxyJDeoEVFeBqSpHZhsHk-2xbajdqbzWXCixMaFVbt4CIv-0vFL0yOEk0qyqOIroGoM"
-                alt="Interior of a modern professional vocal recording booth"
+                src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?auto=format&fit=crop&w=1920&q=80"
+                alt="Cabine vocale avec traitement acoustique professionnel"
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                style={{ filter: 'grayscale(1) brightness(0.55)' }}
               />
               <div className="absolute inset-0 bg-gradient-to-r from-background via-background/40 to-transparent" />
               <div className="relative z-10 px-12 md:px-20 max-w-2xl">
@@ -328,12 +331,8 @@ function HomePage() {
                     "Studio Voix d'Afrique a transformé notre vision. Leur attention aux détails lors du doublage de notre documentaire a apporté une authenticité que nous ne pensions pas possible à ce niveau de rapidité."
                   </p>
                   <div className="flex items-center gap-4">
-                    <div className="w-16 h-16 rounded-full bg-outline-variant overflow-hidden flex-shrink-0">
-                      <img
-                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3E8nppIq2zoSFoYXoEhUddxpl0T8862eASmJG7CaqPt6ULIgZxvCz2Ou6CsZF09NdlXcPqtpZ--dQLjcFXeJvZ95KX6WgpGUIae6sUq21Qu-qEv3HqYUOW_zs0OqFIj9Lg0OEBxD_wIoIVQ419j37i8sEnqqOwJTASo6qmwE11m7LxxLn8IEiIxl5ZlrqL2jCk0X5ya07PcRxA0GbI3wJHSFojHwQEIYEHQ8eL-KiVLX0rXjuZlQxSMjY6DsIYEdWn72eTXPlJ8c"
-                        alt="Portrait of a professional African woman smiling"
-                        className="w-full h-full object-cover"
-                      />
+                    <div className="w-16 h-16 rounded-full bg-primary/20 border border-primary/30 overflow-hidden flex-shrink-0 flex items-center justify-center">
+                      <span className="material-symbols-outlined text-primary text-3xl">mic</span>
                     </div>
                     <div>
                       <h4 className="font-bold text-lg">Amara Keïta</h4>
@@ -377,67 +376,7 @@ function HomePage() {
       {/* ═══════════════════════════════════════════
           FOOTER
       ═══════════════════════════════════════════ */}
-      <footer id="contact" className="bg-slate-950 w-full rounded-t-3xl py-16 px-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-7xl mx-auto">
-          {/* Brand */}
-          <div className="md:col-span-1">
-            <span className="text-xl font-black text-emerald-500 mb-6 block">Studio Voix d'Afrique</span>
-            <p className="text-slate-400 text-sm leading-relaxed mb-8">
-              Expertise sonore, excellence technique et immersion culturelle au service des créateurs de contenus du monde entier.
-            </p>
-            <div className="flex gap-4">
-              {['brand_awareness', 'social_leaderboard', 'share'].map(icon => (
-                <a key={icon} href="#" className="w-10 h-10 rounded-full border border-slate-800 flex items-center justify-center text-slate-400 hover:text-emerald-500 hover:border-emerald-500 transition-all">
-                  <span className="material-symbols-outlined text-xl">{icon}</span>
-                </a>
-              ))}
-            </div>
-          </div>
-
-          {/* Navigation */}
-          <div>
-            <h5 className="text-white font-bold mb-6">Navigation</h5>
-            <ul className="space-y-4 text-sm">
-              {['Services', 'Studio', 'Portfolio', 'Blog', 'About'].map(item => (
-                <li key={item}><a href="#" className="text-slate-400 hover:text-orange-400 transition-all">{item}</a></li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Légal */}
-          <div>
-            <h5 className="text-white font-bold mb-6">Légal</h5>
-            <ul className="space-y-4 text-sm">
-              {['Mentions Légales', 'Confidentialité', 'Conditions Générales'].map(item => (
-                <li key={item}><a href="#" className="text-slate-400 hover:text-orange-400 transition-all">{item}</a></li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Contact */}
-          <div>
-            <h5 className="text-white font-bold mb-6">Contact</h5>
-            <ul className="space-y-4 text-sm">
-              {[
-                { icon: 'location_on', text: 'Ouagadougou, Burkina Faso' },
-                { icon: 'mail', text: 'contact@voixdafrique.studio' },
-                { icon: 'call', text: '+226 25 XX XX XX' },
-              ].map(({ icon, text }) => (
-                <li key={text} className="flex items-center gap-3 text-slate-400">
-                  <span className="material-symbols-outlined text-emerald-500">{icon}</span>
-                  {text}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-
-        {/* Bottom bar */}
-        <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center gap-6">
-          <p className="text-slate-400 text-xs">© 2024 Studio Voix d'Afrique. Tous droits réservés.</p>
-          <span className="text-emerald-500 text-xs font-bold tracking-widest">OUAGADOUGOU • PARIS • ABIDJAN</span>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

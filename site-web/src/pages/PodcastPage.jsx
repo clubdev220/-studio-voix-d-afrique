@@ -7,8 +7,8 @@ const SERVICE = {
   titleLine2: 'Enregistrement',
   accentClass: 'text-tertiary',
   description: "Créez un podcast qui fidélise et inspire. De la prise de son à la diffusion, nous gérons chaque étape pour que votre contenu sonne professionnel dès le premier épisode.",
-  heroImage: 'https://lh3.googleusercontent.com/aida-public/AB6AXuD5FDo5KCO69hpbfoDJgRxmCBMBOM0mkz_oi3wRrQG5GLO6b3gimTDU_lUYFub8Rhj5tOhRRcL5wUVMVc3hFOQ8_0EJylqFUtTRpCxmg6P3pKt5KPACjohYnbphnBC-B6m9pXrUimGBCBezzmqpF8O5bU8NRLUF2CD9joS0En9mMPNtP2Q2eUwhqaWHf7AoZfHlScdQnldpbm5wSmKzWAv_IZxljcSa8YUczznjXHQkfGd-1WBlTWl0veBZDWX14RgZRta-rQaYj7w',
-  heroImageAlt: "Podcasteur en session d'enregistrement avec microphone",
+  heroImage: 'https://images.unsplash.com/photo-1571330735066-03aaa9429d89?auto=format&fit=crop&w=1200&q=80',
+  heroImageAlt: "Microphone de studio pour enregistrement podcast",
 
   features: [
     {
@@ -28,8 +28,8 @@ const SERVICE = {
     },
   ],
 
-  processImage: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBo666dTJ1RdchYWYBMM7pMEayHb7UcRrYYGt_CXibDC2qKSeCyr4Y05MgTL32qx7pkg443C1oHV_ppNiLFu9_LSVKM_LSQmpThgJhE116HLCKuySiDBXKQiQoSpiUaDldQWDHRSMEN73KiRM0YLYGfti1Jn40FJ-Tgw9xnaTU5SoWYzS8rzkb4uEflBJZ_cQ6W9Y_MMgonEkk8HriKGprosvlZIu_E69RSNCARndW3Zg6Our78bxdQsqlWdw9J2mqONzJgALet3Jc',
-  processImageAlt: 'Session d\'enregistrement audio en studio',
+  processImage: 'https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?auto=format&fit=crop&w=1200&q=80',
+  processImageAlt: 'Cabine acoustique traitée pour l\'enregistrement',
 
   process: [
     {

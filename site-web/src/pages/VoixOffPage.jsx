@@ -7,7 +7,7 @@ const SERVICE = {
   titleLine2: 'Narration',
   accentClass: 'text-secondary',
   description: "Des voix qui captivent, informent et inspirent. De la publicité au documentaire, nous donnons à vos contenus la dimension émotionnelle qu'ils méritent.",
-  heroImage: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCJQpgY0oI92IBFIUH2cqkQpV03cODeQN_orJM5Udkw46spGnxASyAVWAlnzGA1V5ULY-_C6c9nABB3gd0o-kBWm-SxrQ2-JLEDXnL-TlLp-VqbrL2Gxp4ZXY1LxgrQDVzU_4l9KEPeRlsWNzOoSyoO_ew0Nwe_U6OLuVS85TzXY5lXg0nmkWYxTC5BKerMmganyLcrA04GriOI9qGHVDeoRy0wJb7OAGNCHmSsN6jBxA84IS3rmqQ5LkJPiZrWnJr-Lu_htdAi3U0',
+  heroImage: 'https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=1200&q=80',
   heroImageAlt: "Microphone de studio professionnel",
 
   features: [
@@ -28,8 +28,8 @@ const SERVICE = {
     },
   ],
 
-  processImage: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBo666dTJ1RdchYWYBMM7pMEayHb7UcRrYYGt_CXibDC2qKSeCyr4Y05MgTL32qx7pkg443C1oHV_ppNiLFu9_LSVKM_LSQmpThgJhE116HLCKuySiDBXKQiQoSpiUaDldQWDHRSMEN73KiRM0YLYGfti1Jn40FJ-Tgw9xnaTU5SoWYzS8rzkb4uEflBJZ_cQ6W9Y_MMgonEkk8HriKGprosvlZIu_E69RSNCARndW3Zg6Our78bxdQsqlWdw9J2mqONzJgALet3Jc',
-  processImageAlt: 'Comédien en cabine de doublage',
+  processImage: 'https://images.unsplash.com/photo-1571330735066-03aaa9429d89?auto=format&fit=crop&w=1200&q=80',
+  processImageAlt: 'Microphone en cabine de prise de voix',
 
   process: [
     {

@@ -7,7 +7,7 @@ const SERVICE = {
   titleLine2: 'Audio',
   accentClass: 'text-primary',
   description: "Transformez vos enregistrements bruts en œuvres sonores de haute définition. Mixage, mastering et sound design aux standards des plus grandes productions internationales.",
-  heroImage: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAJtxmZx4_zo7BTODMvaLMzwc4tNYF6xRH8ICbwFaTDvivKUcPIC_UGG5d8CRP28_SpmQatqJ1A9-NcEbHcyx9mYAUjAcJKoWhR0VTMrx9SJwHhPOBuJg8d7jdfgjMcJGJmckmZiXS6Ll-zHiy0b6Pqoi6bFW3GXLvPhQ0CEBo7BSlEaS0eSGN6sxkOq3O9e3WqxKFoNOYassyqrzWJ9T0ijx2iUlCq3EbnIDrNL0y2QI4hdda_spy0Q_asUjlxog2QkuPgISXOaYo',
+  heroImage: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1200&q=80',
   heroImageAlt: "Console de mixage professionnelle",
 
   features: [
@@ -28,8 +28,8 @@ const SERVICE = {
     },
   ],
 
-  processImage: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB_IZ9VgjOieVZIBUrqdDNVoUKYSh0ieMNLzTihmxfAOpv3owRuyy5yWp8R4in3q-ucx4MNUSnTRQbbd7g-KEN8I6tMxgqYCA440oAGC-nB1Djm1C4jvB2RbYJvVVnbQ2jH-SdQDBFb-eee8BN1zMJkwmMVtb-ZjCf-Ij_ueCeV2BiQ_h_FjP2QqMO3cbbDDiosSrgbbD7BydJTOPRd0mqEZ0fH8_czERp1v0f83-HMAiInipZJIgOaxC9O7LsmPKlQxk5tQjJLLUA',
-  processImageAlt: 'Prise de vue cinématographique en studio',
+  processImage: 'https://images.unsplash.com/photo-1574375927112-8e6ae4a8bd5a?auto=format&fit=crop&w=1200&q=80',
+  processImageAlt: 'Visualisation de formes d\'ondes audio',
 
   process: [
     {

@@ -7,8 +7,8 @@ const SERVICE = {
   titleLine2: 'Vocalisation',
   accentClass: 'text-orange-400',
   description: "Donnez une voix authentique à vos contenus internationaux. Nous traduisons l'émotion, le rythme et l'essence culturelle pour le public africain et mondial.",
-  heroImage: 'https://lh3.googleusercontent.com/aida-public/AB6AXuABAN_fLLWun9cEdsWakw0jl6TkUV-te0jLc81t6ZoYAFZtaRxgIIOPL60Sw80UbfjbVO_xPRwHjGaRohIrHtetKUsQl9HnsmEKOdwUEJ2NKE23tzS28md3QHohmAkwb0htmhptkrNIEDaiHak4lGbduiRPF7LP7-kZKLLYWXKZbecNvelk0W6HbSBL8Vobv7qE1QmVYG61uzwqPdHR4Ru9mgG2IC4OoNIUMIluZdZAvgsR8SOGMQMBz8YrqTN4dLOBU-twHTS5Pvk',
-  heroImageAlt: "Intérieur d'un studio d'enregistrement professionnel",
+  heroImage: 'https://images.unsplash.com/photo-1598653244849-4f476c1571ba?auto=format&fit=crop&w=1200&q=80',
+  heroImageAlt: "Console de mixage professionnelle en studio",
 
   features: [
     {
@@ -28,8 +28,8 @@ const SERVICE = {
     },
   ],
 
-  processImage: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAJtxmZx4_zo7BTODMvaLMzwc4tNYF6xRH8ICbwFaTDvivKUcPIC_UGG5d8CRP28_SpmQatqJ1A9-NcEbHcyx9mYAUjAcJKoWhR0VTMrx9SJwHhPOBuJg8d7jdfgjMcJGJmckmZiXS6Ll-zHiy0b6Pqoi6bFW3GXLvPhQ0CEBo7BSlEaS0eSGN6sxkOq3O9e3WqxKFoNOYassyqrzWJ9T0ijx2iUlCq3EbnIDrNL0y2QI4hdda_spy0Q_asUjlxog2QkuPgISXOaYo',
-  processImageAlt: 'Ingénieur son à la console de mixage',
+  processImage: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1200&q=80',
+  processImageAlt: 'Régie de mixage professionnelle',
 
   process: [
     {

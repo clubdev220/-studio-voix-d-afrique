@@ -1,53 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.jsx';
 import { useBooking } from '../contexts/BookingContext.jsx';
-
-/* ─── Footer ─────────────────────────────────────────────── */
-const Footer = () => (
-  <footer className="bg-slate-950 w-full rounded-t-3xl pt-16 pb-8 px-12">
-    <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16">
-      <div className="md:col-span-1 space-y-4">
-        <div className="text-xl font-black text-emerald-500" style={{ fontFamily: 'Space Grotesk' }}>Studio Voix d'Afrique</div>
-        <p className="text-slate-400 text-sm leading-relaxed max-w-xs">Le premier studio de production vocale et post-production sonore dédié à l'excellence créative africaine.</p>
-      </div>
-      <div>
-        <h4 className="text-emerald-500 font-bold mb-6 text-sm uppercase tracking-widest">Navigation</h4>
-        <ul className="space-y-4">
-          {[['Services', '/services'], ['Studio', '/studio'], ['Portfolio', '/portfolio'], ['Blog', '#'], ['À Propos', '/about']].map(([label, href]) => (
-            <li key={label}><Link to={href} className="text-slate-400 hover:text-orange-400 text-sm transition-all">{label}</Link></li>
-          ))}
-        </ul>
-      </div>
-      <div>
-        <h4 className="text-emerald-500 font-bold mb-6 text-sm uppercase tracking-widest">Compagnie</h4>
-        <ul className="space-y-4">
-          {['Mentions Légales', 'Confidentialité', 'Contact'].map(item => (
-            <li key={item}><a href="#" className="text-slate-400 hover:text-orange-400 text-sm transition-all">{item}</a></li>
-          ))}
-        </ul>
-      </div>
-      <div>
-        <h4 className="text-emerald-500 font-bold mb-6 text-sm uppercase tracking-widest">Suivez-nous</h4>
-        <div className="flex gap-4">
-          {['share', 'play_circle', 'mic'].map(icon => (
-            <a key={icon} href="#" className="w-10 h-10 rounded-full border border-slate-800 flex items-center justify-center text-slate-400 hover:border-emerald-500 hover:text-emerald-500 transition-all">
-              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>{icon}</span>
-            </a>
-          ))}
-        </div>
-        <div className="mt-8 space-y-2 text-slate-400 text-sm">
-          <p className="flex items-center gap-2"><span className="material-symbols-outlined text-sm">phone</span>+226 67 56 56 91</p>
-          <p className="flex items-center gap-2"><span className="material-symbols-outlined text-sm">location_on</span>Ouagadougou, Burkina Faso</p>
-        </div>
-      </div>
-    </div>
-    <div className="pt-8 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-500 text-xs">
-      <p>© {new Date().getFullYear()} Studio Voix d'Afrique. Tous droits réservés.</p>
-      <span className="uppercase tracking-tighter text-slate-600">La voix qui donne vie aux histoires</span>
-    </div>
-  </footer>
-);
 
 /* ═══════════════════════ ABOUT PAGE ═══════════════════════ */
 export default function AboutPage() {
@@ -137,9 +92,10 @@ export default function AboutPage() {
             <div className="absolute inset-0 bg-gradient-to-r from-background via-background/85 to-transparent z-10" />
             <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent z-10" />
             <img
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPUEqFtt_oYA5KG8v_r52lOUSsCoNfDMHVlC_oUS0YxeryJE4U4pDN3QaNlWk4ViYsqoW8cM6Hxe01o8AN9B_v40bVg6_JbRLiwPL9O8dTGFt4VoNEgB21VFNa2WEvQfeqXpYAOiGKoBYd2qvrbjWQ4pGecIRJXJMu8dTz8dWgJ9ZUcmlBQ1Fj12miQYSrK44yjff7K5y2S7wyxUwQCtYg13_2pRCXyyU7a6U6zldKIfpr9rj13-cUGorCpYuU8gmR4-AltGGHn1c"
-              alt="Studio professionnel SVA"
+              src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1920&q=80"
+              alt="Console de mixage Studio Voix d'Afrique"
               className="w-full h-full object-cover opacity-30"
+              style={{ filter: 'grayscale(1) brightness(0.55)' }}
             />
           </div>
           <div className="relative z-20 max-w-4xl">
